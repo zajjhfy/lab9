@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta content-type="UTF-8">
+        <title>Лаба 9</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <p>Битовый расчет дней недели</p>
+                <label>Добавить день: <input id = "bit-add-day" type = "text"></label>
+                <p></p>
+                <button id = "bit-bttn">Результат</button>
+                <p id = "bit-get-res"></p>
+                <script src="BitWeekDays.js"></script>
+            </div>
+            <div class="column">
+                <p>Вычисление общей области прямоугольников</p>
+                <p>Первый прямоугольник:</p>
+                <label>x_min1: <input id = "reg-x-min-1" type = "number"></label>
+                <p></p>
+                <label>x_max1: <input id = "reg-x-max-1" type = "number"></label>
+                <p></p>
+                <label>y_min1: <input id = "reg-y-min-1" type = "number"></label>
+                <p></p>
+                <label>y_max1: <input id = "reg-y-max-1" type = "number"></label>
+                <p>Второй прямоугольник:</p>
+                <p></p>
+                <label>x_min2: <input id = "reg-x-min-2" type = "number"></label>
+                <p></p>
+                <label>x_max2: <input id = "reg-x-max-2" type = "number"></label>
+                <p></p>
+                <label>y_min2: <input id = "reg-y-min-2" type = "number"></label>
+                <p></p>
+                <label>y_max2: <input id = "reg-y-max-2" type = "number"></label>
+                <p></p>
+                <button id = "reg-bttn">Результат</button>
+                <p id = "reg-get-result"></p>
+                <script src = "CalcRegion.js"></script>
+            </div>
+            <div class="column">
+                <p>Вычисление алгоритма</p>
+                <label>x: <input id = "alg-input-x" type = "number"></label>
+                <p></p>
+                <label>y: <input id = "alg-input-y" type = "number"></label>
+                <p></p>
+                <label>z: <input id = "alg-input-z" type = "number"></label>
+                <p></p>
+                <button id = "alg-get-result">Результат</button>
+                <p id = "alg-output"></p>
+                <script src = "CalcAlg.js"></script>
+            </div>
+        </div>
+    </body>
+</html>
